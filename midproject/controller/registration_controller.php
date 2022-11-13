@@ -49,7 +49,3 @@ $formdata = array(
 
 }
 ?>
-     <html>
-      <br><a href="../view/registration.php"> Return Registration form</a> <br>
-      <a href="../view/login.php"> Login form</a>
-     </html>
