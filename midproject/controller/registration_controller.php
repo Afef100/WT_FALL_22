@@ -5,7 +5,7 @@ if(file_exists("../data.json")){
   $info=json_decode(file_get_contents("../data.json"));
  foreach($info as $userinfo)
  {
-    if($userinfo->Namer==$_POST["name"])
+    if($userinfo->Name==$_POST["name"])
     {
      echo $_POST["name"]."Name already taken";
      return;
